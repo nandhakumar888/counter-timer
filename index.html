@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Counter Timer</title>
+
+    <!-- favicon -->
+    <link rel="shortcut icon" href="./images/icons.png" type="image/x-icon">
+
+    <!-- custom css -->
+    <link rel="stylesheet" href="./styles.css">
+
+    <!-- normalize css -->
+    <link rel="stylesheet" href="./normalize.css">
+</head>
+<body>
+    <section class="section">
+        <div class="container">
+            <div class="row justify-content-center align-items-center">
+                <div class="col-12">
+                    <div class="wrapper mb-4 d-flex justify-content-center align-items-center">
+                        <div class="minutes">
+                            <h1 id="minutes_h1">0</h1>
+                        </div>
+                        <div class="me-4 ms-4">
+                            <h1>:</h1>
+                        </div>
+                        <div class="seconds">
+                            <h1 id="seconds_h1">0</h1>
+                        </div>
+
+                    </div>
+                    <div class="wrapper d-flex justify-content-center align-items-center">
+                        <button class="button me-3 start" onclick="Start()">Start</button>
+                        <button class="button me-3 stop" onclick="Stop()">Stop</button>
+                        <button class="button me-3 reset" onclick="Reset()">Reset</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <script src="./script.js"></script>
+    
+</body>
+</html>
